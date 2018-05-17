@@ -1,0 +1,24 @@
+In events.html,
+
+1. Add a second prompt to the greetUser() function so that it also asks for your age.
+   Then have the function write a sentence like "Hello, Jon. I see you are 46 years old."
+   to the greeting div.
+
+2. Look at the button with the value="Show secret message". Add an onclick event
+   handler to this button so that it calls the function showSecretMessage().
+
+3. Make a button with the text "Giraffe Fact" (or something similar). When clicked,
+   the button should cause an interesting fact about your animal to appear in a
+   div below the secret message.
+
+4. Make a button that changes the font family for the h1 element. You'll need to
+   inspect the HTML to find the id associated with the h1 element. Use the highlight()
+   function as an example. You should not edit the CSS.
+
+5. List 5 events that JavaScript can respond to other than onload and onclick.
+   (We haven't talked about this, just Google it.)
+      1.onmouseover
+      2.onchange
+      3.oncontextmenu
+      4.ondblclick
+      5.onerror

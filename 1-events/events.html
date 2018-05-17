@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>JavaScript Events</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="greetUser()">
+
+<h1 id="main-heading">JavaScript Events</h1>
+
+<div id="greeting"></div>
+
+<p>This page demonstrates how JavaScript functions can be connected to events such as onload and onclick.</p>
+
+<form>
+  <input type="button" onclick="changeBackground()" value="Blue!">
+  <input type="button" onclick="highlight()" value="Yellow!">
+  <input type="button" onclick="showSecretMessage()" value="Show secret message">
+  <input type="button" onclick="chinchillaFact()" value="Chinchilla Fact">
+  <input type="button" onclick="font()" value="Font!">
+</form>
+
+<div id="secret_message"></div>
+
+<div id="chilla_fact"></div>
+
+
+<!-- put javascript last in the body -->
+<script src="functions.js"></script>
+
+</body>
+</html>
