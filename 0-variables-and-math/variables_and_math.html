@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Variables and Math</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>Variables and Math</h1>
+
+<script>
+// declare variables and assign values
+var a = 14274;
+var b = 2303;
+
+var sum = a + b;
+var diff = a - b;
+var prod = a * b;
+var quot = a / b;
+
+// write data to the window
+document.write(sum + "<br>");
+document.write(diff + "<br>");
+document.write(prod + "<br>");
+document.write(quot + "<br>");
+document.write("<br>");
+
+// the math class as more functions like square roots, powers, and trig functions
+var square_root = Math.sqrt(a);
+document.write(square_root + "<br>");
+document.write("<br>");
+
+
+var c = 2;
+var d = 18
+
+var power = Math.pow(c, d);
+document.write(power + "<br>");
+document.write("<br>");
+
+// common constants
+document.write(Math.PI + "<br>");
+document.write(Math.E + "<br>");
+document.write("<br>");
+
+var sine = Math.sin(Math.PI / 4); // trig functions always take radians in JavaScript
+document.write(sine + "<br>");
+document.write("<br>");
+
+// strings variables store collections of letters and symbols
+var name = "Valentina"; // quotes are needed around string variables
+var age = 14;
+var city = "Newark"   // do not use quotes around numeric variables
+
+// notice how the + operator is used to join variables and string literals
+document.write(name + " is " + age + " years old." + "She was born in " + city)
+document.write("<br>")
+
+sum1 = 4 + 8;
+sum2 = "4" + "8";
+sum3 = "4" + 8;
+
+document.write(sum1 + "<br>");
+document.write(sum2 + "<br>");
+document.write(sum3 + "<br>");
+
+</script>
+
+</body>
+</html>
