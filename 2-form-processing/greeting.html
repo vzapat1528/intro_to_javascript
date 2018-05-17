@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Getting Form Data</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>Getting Form Data with JavaScript</h1>
+
+<h2>Enter a value into each field:</h2>
+
+<form>
+  What is your name? <input type="text" id='name'> <br>
+  Where are you from? <input type="text" id='place'> <br>
+  How old are you? <input type="number" id='age'> <br>
+  What is your favorite food? <input type="text" id='food'> <br>
+
+
+  <input type="button" onclick="greeting()" value="Submit">
+</form>
+
+<h2>Your custom greeting:</h2>
+<p id="message"></p>
+
+<!-- put javascript last in the body -->
+<script src="functions.js"></script>
+
+</body>
+</html>
